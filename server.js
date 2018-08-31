@@ -88,7 +88,7 @@ server.get("/projects", (req, res) => {
       console.log("error", err);
       res
         .status(500)
-        .json({ error: "The action information could not be retrieved." });
+        .json({ error: "The project information could not be retrieved." });
     });
 });
 
@@ -102,7 +102,7 @@ server.get("/projects/:id", (req, res) => {
       console.log("error", err);
       res
         .status(500)
-        .json({ error: "The action information could not be retrieved." });
+        .json({ error: "The project information could not be retrieved." });
     });
 });
 
